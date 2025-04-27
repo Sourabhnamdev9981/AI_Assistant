@@ -1,100 +1,196 @@
-project:
-  title: "🚀 Screen Recorder Analyzer"
-  tagline: "Capture. Analyze. Understand. A tool that records user screens and analyzes them using Groq’s AI engine to extract actionable insights."
-  banner_url: "https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f"
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-problem_statement:
-  number: 9
-  title: "Enhance Digital Interaction Analysis"
+# 🚀 AI Screen Assistant
 
-objective: >
-  This project solves the challenge of analyzing user interactions digitally by recording screen activities
-  and using AI to extract meaningful patterns. It helps researchers, developers, and analysts better understand
-  user behavior without manually reviewing long hours of footage.
+> Capture. Analyze. Understand.  
+> A tool that records user screens and analyzes them using Groq’s AI engine to extract actionable insights.
 
-team:
-  name: "VisionaryCoders"
-  members:
-    - name: "Alice Smith"
-      github: "https://github.com/alice-smith"
-      role: "Developer"
-    - name: "Bob Johnson"
-      linkedin: "https://linkedin.com/in/bobjohnson"
-      role: "AI Engineer"
-    - name: "Charlie Ray"
-      github: "https://github.com/charlieray"
-      role: "UI/UX Designer"
-  approach: >
-    Chose this problem because user behavior analysis is crucial but tedious. Addressed challenges like efficient
-    screen capturing, real-time data processing, and meaningful summarization. Achieved breakthroughs using Groq’s low-latency inference capabilities.
+---
 
-tech_stack:
-  frontend: "React.js"
-  backend: "Python (FastAPI)"
-  database: "MongoDB"
-  apis: 
-    - "Groq API"
-    - "OpenCV"
-  hosting:
-    frontend: "Vercel"
-    backend: "AWS EC2"
+## 📌 Problem Statement
 
-sponsor_technologies:
-  groq: true
-  monad: false
-  fluvio: false
-  base: false
-  screenpipe: false
-  stellar: false
+**Problem Statement 9 – Enhance Digital Interaction Analysis**
 
-key_features:
-  - "Screen recording with frame-level capture"
-  - "AI-powered action and event detection"
-  - "Insight summaries and session tagging"
-  - "Local-first recording with optional cloud upload"
-  - "Dashboard for reviewing analyzed results"
+---
 
-demo_deliverables:
-  demo_video_link: "Coming Soon"
-  pitch_deck_link: "Coming Soon"
+## 🎯 Objective
 
-tasks_bonus:
-  mandatory_tasks_completed: true
-  bonus_task_1_badge_sharing: false
-  bonus_task_2_sprint_signup: false
+The AI Screen Assistant addresses the difficulty of analyzing user behavior by capturing screen recordings and using AI models to detect actions, interactions, and patterns automatically.  
+It serves researchers, UI/UX designers, developers, and product managers who need better understanding of user behavior without manually reviewing hours of video footage.
 
-setup_instructions:
-  requirements:
-    - "Python 3.8+"
-    - "Node.js 18+"
-    - "Groq API key"
-    - "MongoDB Atlas account"
-    - ".env file with API keys"
-  local_setup_steps:
-    - "git clone https://github.com/visionarycoders/screen-recorder-analyzer"
-    - "cd backend"
-    - "pip install -r requirements.txt"
-    - "cd ../frontend"
-    - "npm install"
-    - "cd ../backend"
-    - "uvicorn main:app --reload"
-    - "cd ../frontend"
-    - "npm run dev"
+---
 
-future_scope:
-  - "Real-time live recording analysis"
-  - "User data encryption and GDPR compliance"
-  - "Multi-language analytics report support"
+## 🧠 Team & Approach
 
-resources_credits:
-  - "Groq API Documentation: https://groq.com/docs"
-  - "OpenCV: https://opencv.org/"
-  - "React.js: https://react.dev/"
-  - "FastAPI: https://fastapi.tiangolo.com/"
-  - "Thanks to open-source contributors"
+### Team Name:  
+`VisionaryCoders`
 
-final_words: >
-  Building Screen Recorder Analyzer was a challenging yet exciting journey!
-  We learned extensively about real-time data handling, rapid inference models,
-  and efficient team collaboration. Special thanks to Groq for their incredible
-  developer support during the hackathon!
+### Team Members:  
+- Sourabh Namdev ([GitHub](https://github.com/Sourabhnamdev9981))   
+- Dev shrivastava ([GitHub](https://github.com/DevShrivastava152004))   
+- Satyam raj ([GitHub](https://github.com/5at4am))
+- Shreya sharma ([GitHub](https://github.com))
+
+### Your Approach:  
+- Chose this problem due to the growing importance of digital behavior analytics.  
+- Key challenges addressed:
+  - Real-time high-fidelity screen recording
+  - Fast frame processing
+  - Extracting actionable insights via AI
+- Major breakthrough: Leveraging Groq’s high-speed inference for real-time user action detection and session summarization.
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies Used:
+- **Frontend:** React.js
+- **Backend:** Python (FastAPI)
+- **Database:** MongoDB Atlas
+- **APIs:** Groq API, OpenCV
+
+### Sponsor Technologies Used:
+- ✅ **Groq:** Used for AI-based screen recording analysis.
+
+---
+
+## ✨ Key Features
+
+- ✅ Screen recording with efficient compression
+- ✅ AI-powered user action detection
+- ✅ Automated session summaries
+- ✅ Real-time dashboard for event visualization
+
+*(Demo screenshots coming soon!)*
+
+---
+
+# 🤖 Project Overview
+
+The project is an **AI Screen Assistant** consisting of:
+- A **backend** built with **Python (FastAPI)**.
+- A **frontend** built with **React.js**.
+
+The backend handles API requests and AI processing, while the frontend provides the user interface.
+
+---
+
+## 🛠️ Prerequisites
+- Python 3.8 or higher
+- Node.js 14 or higher
+- npm or yarn package manager
+- **Tesseract OCR software** (for Windows users):
+  - Download and install from [Tesseract GitHub](https://github.com/tesseract-ocr/tesseract).
+  - **Important:** Add Tesseract to your system PATH during installation.
+
+---
+
+## Backend Setup (Python)
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. Install Python dependencies:
+   ```bash
+   pip install -r backend/requirements.txt
+   ```
+
+4. Run the backend server:
+   ```bash
+   uvicorn backend.app.main:app --reload
+   ```
+
+---
+
+## Frontend Setup (React.js)
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+   or if you use yarn:
+   ```bash
+   yarn install
+   ```
+
+3. Run the frontend development server:
+   ```bash
+   npm start
+   ```
+   or with yarn:
+   ```bash
+   yarn start
+   ```
+
+4. The frontend will be available at `http://localhost:3000` by default.
+
+---
+
+## How to Run the Project
+
+1. Start the backend server first (see Backend Setup).
+2. Start the frontend development server (see Frontend Setup).
+3. Open your browser and navigate to `http://localhost:3000` to use the AI Screen Assistant.
+
+---
+
+## Additional Notes
+
+- Make sure your backend server is running before using the frontend to avoid API errors.
+- The `.gitignore` files are set up to ignore environment files, build artifacts, and dependencies to keep the repository clean.
+- For any issues or questions, please refer to the project documentation or contact the maintainer.
+## 📽️ Demo & Deliverables
+
+- **Demo Video Link:** Coming Soon
+- **Pitch Deck / PPT Link:** Coming Soon
+
+---
+
+## ✅ Tasks & Bonus Checklist
+
+- ✅ All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form
+- ⬜ All members completed Bonus Task 1 - Sharing of Badges (2 points)
+- ⬜ All members completed Bonus Task 2 - Sprint.dev Signup (3 points)
+
+---
+
+## 🧬 Future Scope
+
+- 📈 Integrate live session monitoring
+- 🛡️ Enhance user data encryption and ensure GDPR compliance
+- 🌐 Add multi-language support for analytics reports
+
+---
+
+## 📎 Resources / Credits
+
+- [Groq API Documentation](https://groq.com/docs)
+- [OpenCV Library](https://opencv.org/)
+- [React.js Documentation](https://react.dev/)
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- Thanks to open-source communities!
+
+---
+
+## 🏁 Final Words
+
+Building **AI Screen Assistant** was an incredible journey full of learning experiences!  
+We explored the frontiers of AI inference speed, seamless data processing, and dynamic teamwork.  
+Huge thanks to **Groq** and the hackathon organizers for giving us this amazing platform! 🚀
