@@ -61,7 +61,7 @@ It serves researchers, UI/UX designers, developers, and product managers who nee
 - ✅ Automated session summaries
 - ✅ Real-time dashboard for event visualization
 
-*(Demo screenshots coming soon!)*
+
 
 ---
 
@@ -158,16 +158,16 @@ The backend handles API requests and AI processing, while the frontend provides 
 - For any issues or questions, please refer to the project documentation or contact the maintainer.
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** Coming Soon
-- **Pitch Deck / PPT Link:** Coming Soon
+- **Demo Video Link:** https://youtu.be/CxEe6kar2uA
+- **Pitch Deck / PPT Link:** https://docs.google.com/presentation/d/14_Np2-0MPv4rj4hx-YUXMaEx6MDhyA0p/edit?usp=sharing&ouid=108426145286669555136&rtpof=true&sd=true
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
 - ✅ All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form
-- ⬜ All members completed Bonus Task 1 - Sharing of Badges (2 points)
-- ⬜ All members completed Bonus Task 2 - Sprint.dev Signup (3 points)
+- ✅ All members completed Bonus Task 1 - Sharing of Badges (2 points)
+- ✅ All members completed Bonus Task 2 - Sprint.dev Signup (3 points)
 
 ---
 
